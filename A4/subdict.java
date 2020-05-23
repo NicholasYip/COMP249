@@ -49,8 +49,8 @@ public class subdict {
 				text = text.replace("]", "");
 				text = text.replace(":", "");
 				text = text.replace(";", "");
-				text = text.replace("’M", "");
-				text = text.replace("’S", "");
+				text = text.replace("â€™M", "");
+				text = text.replace("â€™S", "");
 				if (text.length() < 2){
 					if (!text.equals("A") && !text.equals("I"))
 						continue;
